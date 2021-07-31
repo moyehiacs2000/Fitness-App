@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="160dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@drawable/bg_gym"
+    android:padding="20dp">
+    <com.mikhaellopez.circularimageview.CircularImageView
+        android:id="@+id/profile_photo"
+        android:layout_width = "75dp"
+        android:layout_height = "75dp"
+        android:src = "@drawable/my_photo"
+        app:civ_border_width="1dp"
+        app:civ_border_color="@color/colorAqua"
+        app:civ_shadow_radius="15"
+        app:civ_shadow_color="@color/colorAqua"
+       />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mohamed Yehia"
+        android:textColor="@color/colorwhite"
+        android:textSize="16dp"
+        android:shadowColor="@color/shadow_color"
+        android:shadowRadius="15"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="mohamedyehia@gmail.con"
+        android:textColor="@color/colorwhite"
+        android:textSize="12dp"
+        android:shadowColor="@color/shadow_color"
+        android:shadowRadius="15"/>
+</LinearLayout>
