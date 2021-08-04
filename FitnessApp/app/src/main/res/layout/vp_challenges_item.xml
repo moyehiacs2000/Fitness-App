@@ -8,6 +8,16 @@
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent">
+        <View
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:elevation="2dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:background="@drawable/transparent_diagonal"
+            />
     <ImageView
         android:id="@+id/VP_Challenges_item_Image"
         android:layout_width="match_parent"
@@ -18,33 +28,22 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentRight="true"
         />
-    <TextView
-        android:id="@+id/VP_Challenges_Name"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textSize="18dp"
-        android:text="Lose Weight"
-        android:textColor="@color/colorwhite"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginBottom="50dp"
-        android:layout_marginLeft="20dp"
-        android:shadowRadius="15"
-        android:shadowColor="@color/shadow_color"
-        />
         <TextView
             android:id="@+id/VP_Challenges_Weeks"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textSize="18dp"
-            android:text="Six Week Challenge"
+            android:textSize="16dp"
+            android:text="Lose Weight Six Week Challenge"
+            android:elevation="3dp"
             android:textColor="@color/colorwhite"
             android:layout_alignParentLeft="true"
             android:layout_alignParentBottom="true"
-            android:layout_marginBottom="25dp"
-            android:layout_marginLeft="20dp"
+            android:layout_marginBottom="8dp"
+            android:layout_marginLeft="10dp"
             android:shadowRadius="15"
             android:shadowColor="@color/shadow_color"
             />
+
+
     </RelativeLayout>
 </androidx.cardview.widget.CardView>

@@ -35,4 +35,5 @@ dependencies {
     implementation 'com.google.android.material:material:1.2.0-alpha04'
     implementation 'com.mikhaellopez:circularimageview:3.2.0'
     implementation 'com.chabbal:slidingdotsplash:1.0.2'
+    implementation 'com.afollestad:viewpagerdots:1.0.0'
 }
